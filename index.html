@@ -9,11 +9,9 @@
 
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.5.2/core.css">
     <script type="module" src="https://pyscript.net/releases/2024.5.2/core.js"></script>
-
 </head>
 
 <body>
-    <script type="py" src="./ind.py" config="./pyscript_ind.toml"></script>
     <header>
         <h1>Stock Analysis</h1>
         <nav>
@@ -24,18 +22,9 @@
             </ul>
         </nav>
     </header>
-    <main style="bottom: 0%;">
-        <div>
-
-            <button id="ind_show_input" class="interactive-button" py-click="show_input_stock_list">📄 Show Input Stock List</button>
-        </div>
-        <div>
-
-            <button id="runEngineind" class="interactive-button" py-click="run_engine">⚙️ Run the Engine and show the output</button>
-        </div>
-        <div id="inputTableUS"></div>
-        <div id="outputTableUS"></div>
+    <main>
+        <p> Go to the page for respective stocks</p>
     </main>
-</body>
+    </body>
 
 </html>
