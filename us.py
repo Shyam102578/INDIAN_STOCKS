@@ -195,13 +195,13 @@ from pyscript import when, display
 
     @staticmethod
     @when("click", "#us_show_input")
-    def show_input_stock_list():
+    def show_input_stock_list(self):
         List_L, List_S, input_list = testapp()
         display(input_list, append="False")
         
     @staticmethod
     @when("click", "#runEngineus")    
-    def run_engine():
+    def run_engine(self):
         List_L, List_S, input_list = testapp()
         display(List_L , append="False")
         display(List_S , append="False")
