@@ -193,7 +193,7 @@ from pyscript import when, display
         return list_l_col_df, list_s_col_df, input_list_df
 
 
-    @when("click", "#inputTableUS")
+    @when("click", "#ind_show_input")
     def show_input_stock_list():
         List_L, List_S, input_list = testapp()
         display(input_list, append="False")
