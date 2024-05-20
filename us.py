@@ -193,11 +193,12 @@ from pyscript import when, display
         # List_s_col.to_csv('list_s_col.csv', index=False)
         return list_l_col_df, list_s_col_df, input_list_df
 
-
+@staticmethod
     @when("click", "#us_show_input")
     def show_input_stock_list():
         List_L, List_S, input_list = testapp()
         display(input_list, append="False")
+@staticmethod
     @when("click", "#runEngineus")    
     def run_engine():
         List_L, List_S, input_list = testapp()
