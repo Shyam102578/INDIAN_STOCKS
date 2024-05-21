@@ -9,7 +9,7 @@ from pyscript import when, display
 
         # Send a GET request to the URL
 
-        weekly_price = pd.read_csv("data.csv")
+        weekly_price = pd.read_csv("dataus.csv")
         weekly_price = weekly_price[::-1]
         weekly_price['Week'] = range(0, -len(weekly_price), -1)
         weekly_price.set_index('Week', inplace=True)
