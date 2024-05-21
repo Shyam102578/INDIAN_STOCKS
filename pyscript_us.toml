@@ -1,3 +1,3 @@
 packages = ["pandas" ]
 [files]
-"https://docs.google.com/spreadsheets/d/e/2PACX-1vTXhlKNrUGCScq7nuJa81RJLGJ6KxuXyAi3fGA2a46gXYP9fhlG6Yi0GdUipZbAzYSQ4GqFsN_q67F8/pub?gid=1053518510&single=true&output=csv" = "./data.csv"
+"https://docs.google.com/spreadsheets/d/e/2PACX-1vTXhlKNrUGCScq7nuJa81RJLGJ6KxuXyAi3fGA2a46gXYP9fhlG6Yi0GdUipZbAzYSQ4GqFsN_q67F8/pub?gid=1053518510&single=true&output=csv" = "./dataus.csv"
